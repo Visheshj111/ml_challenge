@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Large dataset files (hundreds of MB — not tracked in git)
+dataset/
+
+# Models (large files — save to a separate backup location)
+models/
+!models/model_meta.json
+
+# Output files (regenerate via pipeline)
+output/
+
+# macOS junk
+.DS_Store
+__MACOSX/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Internal tool folders
+.qoder/
+.doc_review/
+

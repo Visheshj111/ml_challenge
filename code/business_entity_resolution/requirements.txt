@@ -1,0 +1,16 @@
+# Reproducible runtime used for the submission pipeline.
+pandas==3.0.6
+numpy==2.5.2
+scikit-learn==1.9.0
+scipy==1.18.0
+joblib==1.5.3
+lightgbm==4.7.0
+xgboost==3.4.1
+RapidFuzz==3.14.6
+jellyfish==1.2.1
+# Dense retrieval (hybrid blocking). For GPU, install torch FIRST from the
+# cu128 index (pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128)
+# so this line resolves to the already-installed CUDA build.
+sentence-transformers>=3.0.0
+torch>=2.2.0
+datasets>=2.14.0
